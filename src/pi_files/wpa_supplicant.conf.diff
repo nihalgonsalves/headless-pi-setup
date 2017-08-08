@@ -1,0 +1,7 @@
+# headless config
+
+# example secure network
+# network={
+#   ssid="NetworkName"
+#   psk="my-password"
+# }
