@@ -95,23 +95,23 @@ docker run \
 
 ### Bluetooth
 
-0. Boot up the Pi, wait a minute or two, and then restart it. This lets the Bluetooth config take effect.
+1. Boot up the Pi, wait a minute or two, and then restart it. This lets the Bluetooth config take effect.
 
-0. Pair with it from your Mac
+2. Pair with it from your Mac
 
-0. Find the serial device:
+3. Find the serial device:
 
   ```sh
   ls /dev/cu.*
   ```
 
-0. Connect
+4. Connect
 
   ```sh
   screen /dev/cu.raspberrypi-SerialPort 115200
   ```
 
-0. Stop other devices from pairing
+5. Stop other devices from pairing
 
   ```sh
   ./headless/btsecure.sh
