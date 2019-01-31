@@ -4,7 +4,7 @@ Bootstrap a headless Raspberry Pi 3 (without a keyboard, mouse, or monitor) usin
 
 This Docker image lets you manipulate the Raspbian `.img` image (which has an `ext4` partition unreadable by macOS) directly from Docker on macOS without having to run a Linux VM or use a Linux host.
 
-The included bash scripts can automatically set up the configuration for Bluetooth, WiFi, and SSH, and correctly mount the Rasbpian image's two partitions for manipulation.
+The included bash scripts can automatically set up the configuration for Bluetooth, WiFi, and SSH, and correctly mount the Raspbian image's two partitions for manipulation.
 
 There are many guides online that achieve the same goal, but unfortunately require you to run a Linux VM to modify the `ext4` partition.
 
