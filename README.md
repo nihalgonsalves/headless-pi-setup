@@ -1,3 +1,7 @@
+> :warning: This may still work, but isn't maintained, and you can now use the Raspberry Pi Imager to set network/WiFi settings directly while flashing an OS image: <https://www.raspberrypi.com/software/>
+
+---
+
 # Headless Raspberry Pi 3 Setup on macOS
 
 Bootstrap a headless Raspberry Pi 3 (without a keyboard, mouse, or monitor) using Docker on macOS.
